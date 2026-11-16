@@ -1,4 +1,4 @@
-# Launcher
+# Zap My App
 
 Desktop app for Windows (Python + Tkinter) that runs `.bat` files grouped by categories. Dark theme and keyboard navigation.
 
@@ -12,7 +12,7 @@ pythonw launcher.pyw
 
 Because it is a `.pyw` file, no console window opens.
 
-- `F1`–`F12`: run the buttons in order.
+- `F1`â€“`F12`: run the buttons in order.
 - Up/down arrows and `Tab`: move the focus between active buttons.
 - `Enter`: run the focused button.
 

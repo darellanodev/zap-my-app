@@ -19,7 +19,7 @@ Save this content in a `.ahk` file (for example `launcher.ahk`) and double click
 pythonw  := "C:\Users\Daniel\AppData\Local\Programs\Python\Python314\pythonw.exe"
 script   := "D:\xampp\htdocs\projects\tools\launcher\launcher.pyw"
 workDir  := "D:\xampp\htdocs\projects\tools\launcher\"
-winTitle := "Lanzador ahk_class TkTopLevel"
+winTitle := "Zap My App ahk_class TkTopLevel"
 
 ^!l:: {
     if WinActive(winTitle) {

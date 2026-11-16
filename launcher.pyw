@@ -1,4 +1,4 @@
-"""Launcher of shortcuts grouped by categories (Windows, Tkinter)."""
+"""Zap My App: shortcuts grouped by categories (Windows, Tkinter)."""
 
 import ctypes
 import os
@@ -6,7 +6,7 @@ import subprocess
 import tkinter as tk
 from tkinter import messagebox
 
-WINDOW_TITLE = "Lanzador"
+WINDOW_TITLE = "Zap My App"
 BUTTON_WIDTH = 28
 ICON_SIZE = 24
 MAX_FUNCTION_KEYS = 12
@@ -20,11 +20,11 @@ BUTTON_PRESSED_COLOR = "#4a4a4a"
 TEXT_COLOR = "#e6e6e6"
 EMPTY_TEXT_COLOR = "#777777"
 
-EMPTY_TEXT = "- vacío -"
+EMPTY_TEXT = "- vacÃ­o -"
 
 CATEGORIES = [
     {
-        "name": "Vídeo",
+        "name": "VÃ­deo",
         "icon": "??",
         "color": "#ab47bc",
         "actions": [
@@ -33,7 +33,7 @@ CATEGORIES = [
         ],
     },
     {
-        "name": "Programación",
+        "name": "ProgramaciÃ³n",
         "icon": "??",
         "color": "#42a5f5",
         "actions": [
